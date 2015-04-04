@@ -40,8 +40,8 @@ popSim <- function(parList) {
 				
 				# store growth rate
 				lam.mx[i,s] <- lam.t
-			}
-		}
+			}  # close time loop
+		}  # close sim loop
 		
 	###--- calculate extinctions
 		ext.mx <- N.mx == 0
@@ -49,7 +49,7 @@ popSim <- function(parList) {
                          time=1:(maxt+1))
 	
 	return(list(N.mx=N.mx, 
-				lam.mx=lam.mx, 
-				ext.mx=ext.mx, 
-				pr.ext=pr.ext))
+              lam.mx=lam.mx,
+              ext.mx=ext.mx,
+              pr.ext=pr.ext))
 }

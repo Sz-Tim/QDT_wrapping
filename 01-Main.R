@@ -34,7 +34,7 @@
 					
 	
 	###--- meta-parameters
-	param <- "s2"	# parameter to vary
+	param <- "r"	# parameter to vary
 	low <- 0.01		# low value for parameter range
 	high <- 2		# high value for parameter range
 	parLen <- 6		# number of values for varied parameter
@@ -50,7 +50,6 @@
                        len=parLen, logSeq=logSeq)
 
 	# simulation loop
-	dirNum <- 1
 	for(p in 1:parLen) {
 		
 		# update varied parameter
@@ -64,11 +63,10 @@
 			writeOutputAndPars(sim.out=sim.out,
                          param=param,
                          parList=parList,
-                         dirNum=dirNum)
+                         dirNum=p)
 		} 
     
-    # update counter and progress
-		dirNum <- dirNum + 1
+    # progress
 		cat("Finished parameter set", p, "of", parLen, "\n")
 	}
 	

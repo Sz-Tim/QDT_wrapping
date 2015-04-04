@@ -147,18 +147,3 @@
     ###--- reformat list into a dataframe
     return(ldply(abund.ls))
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

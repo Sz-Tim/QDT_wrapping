@@ -59,4 +59,3 @@
   ggplot(s2Abund.df, aes(x=time, y=log(abund+1), group=sim)) + 
     geom_line(alpha=0.2) + facet_wrap(~s2) + 
     labs(x="Time", y="log(Abundance)")
-

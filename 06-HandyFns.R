@@ -9,6 +9,10 @@ library(plyr)  # really useful for converting object types, summarizing, etc
 ?ldply  # converts a list into a dataframe
 ?ddply  # converts a dataframe to a dataframe with some specified modifications
 
+library(tidyr)  # several useful functions for data cleaning/manipulation
+?gather  # wide to tall format
+?expand  # like expand.grid (below)
+
 
 ##########
 ## R and your computer
