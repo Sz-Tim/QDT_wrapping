@@ -1,6 +1,5 @@
 # QDT wrapper example
 # Main simulation function
-################################################################################
 
 popSim <- function(parList) {
 	
@@ -46,7 +45,8 @@ popSim <- function(parList) {
 		
 	###--- calculate extinctions
 		ext.mx <- N.mx == 0
-		pr.ext <- rowSums(ext.mx)/sims
+		pr.ext <- data.frame(prExt=rowSums(ext.mx)/sims,
+                         time=1:(maxt+1))
 	
 	return(list(N.mx=N.mx, 
 				lam.mx=lam.mx, 
