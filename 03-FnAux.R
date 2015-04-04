@@ -5,7 +5,7 @@
 ## make parameter sequence
 ##########
 
-	makeParSet <- function(param, low, high, len, logSeq=FALSE) {
+	makeParSeq <- function(param, low, high, len, logSeq=FALSE) {
 		if(logSeq) {
 			par.seq <- exp( seq(log(low), log(high), length.out=len) )
 		} else {

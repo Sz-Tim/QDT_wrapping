@@ -46,7 +46,7 @@
 ##########
 	
 	# make a parameter sequence to vary across simulation sets
-	parSeq <- makeParSet(param=param, low=low, high=high,
+	parSeq <- makeParSeq(param=param, low=low, high=high,
                        len=parLen, logSeq=logSeq)
 
 	# simulation loop
