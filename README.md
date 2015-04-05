@@ -20,6 +20,7 @@ This set up is useful if you're generating or using a lot of data - for example,
 - transparency is maximized  
 - repeatability is maximized  
 - forces you to be organized  
+- forces you to have a better workflow  
 - scripts are clean and less embarrassing to publish  
 - easy integration with UNIX for faster simulations  
 - easy transition to remote computing  

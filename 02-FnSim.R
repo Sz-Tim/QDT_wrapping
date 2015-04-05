@@ -1,6 +1,17 @@
 # QDT wrapper example
 # Main simulation function
 
+# This function simulates populations in discrete time using a stochastic 
+# version of the Ricker model to implement density dependence. Each year, the
+# abundance is calculated as N[t+1] = N[t]*lambda[t] where the growth rate
+# lambda[t] is ~exp( Norm(mean=r*(1-N[t]/K), variance=s2) ).
+
+# The function needs the list of parameters and outputs a list including:
+# - N.mx: simulated abundances with rows=time, cols=sims
+# - lam.mx: actual proportional growth rates with rows=time, cols=sims
+# - ext.mx: T/F where T=extinction, with rows=time, cols=sims
+# - pr.ext: proportion of populations extinct, with rows=time
+
 popSim <- function(parList) {
 	
 	###--- unpack parameters
