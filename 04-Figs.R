@@ -1,5 +1,9 @@
-# QDT wrapper example
-# Making figures with stored data
+# Wrapping: loading data for figures
+# QDT 2015 April 09
+# Tim Szewczyk
+
+# This script pulls and compiles data from multiple simulation runs to make 
+# figures exploring the parameter space.
 
 
 ##########

@@ -1,5 +1,6 @@
-# QDT wrapper example
-# Main simulation function
+# Wrapping: main simulation function
+# QDT 2015 April 09
+# Tim Szewczyk
 
 # This function simulates populations in discrete time using a stochastic 
 # version of the Ricker model to implement density dependence. Each year, the

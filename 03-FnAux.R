@@ -1,5 +1,9 @@
-# QDT wrapper example
-# Additional functions
+# Wrapping: auxiliaryaux functions
+# QDT 2015 April 09
+# Tim Szewczyk
+
+# Homemade functions that are useful for parameter setting, writing data, and
+# retrieving data
 
 ##########
 ## make parameter sequence

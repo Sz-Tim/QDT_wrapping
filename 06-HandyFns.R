@@ -1,5 +1,8 @@
-# QDT wrapper example
-# Handy R functions
+# Wrapping: useful functions
+# QDT 2015 April 09
+# Tim Szewczyk
+
+# These are just a bunch of useful functions you might not have come across.
 
 ##########
 ## data manipulation

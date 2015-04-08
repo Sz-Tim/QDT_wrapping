@@ -1,7 +1,8 @@
-# QDT wrapper example
-# Wrapper script
+# Wrapping: main wrapper script
+# QDT 2015 April 09
+# Tim Szewczyk
 
-# This script sets the parameters and runs the simulation.
+# This script sets the parameters and runs the simulation function.
 
 ##########
 ## set up workspace
