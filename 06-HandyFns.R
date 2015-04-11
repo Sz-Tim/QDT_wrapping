@@ -23,6 +23,7 @@ library(tidyr)  # several useful functions for data cleaning/manipulation
 
 ?source  # runs an R script. Often used for fns, but can be used to set params
 ?sink  # diverts R's output to a file or other location
+?dump  # similar to sink, but you don't need to fuss with cat()
 ?cat  # prints output just as text. Useful with sink.
 ?file.exists  # does a file or folder exist?
 ?dir.create  # creates a folder
